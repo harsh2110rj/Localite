@@ -52,7 +52,7 @@ public class ChatWindow extends AppCompatActivity {
 //                query2.whereGreaterThan("createdAt",lastMsgDate);
 //            }
             List<ParseQuery<ParseObject>> queries = new ArrayList<ParseQuery<ParseObject>>();
-            queries.add(query1);
+            queries.add(query1 );
             queries.add(query2);
 
             ParseQuery<ParseObject> query = ParseQuery.or(queries);
